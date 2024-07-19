@@ -1,0 +1,58 @@
+.nameH1{
+    text-align:center;
+    border-bottom: 1px solid;
+    padding-bottom: 1em;
+    width: 70vw;
+
+}
+.nameContainer{
+    display:flex;
+    justify-content: center;
+    
+}
+.nameH1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#profilePhotoContainer{
+    text-align: center;
+}
+
+#resizeProfilePhoto {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+
+.pageTopic{
+    text-align:center;
+}
+
+
+
+body{
+    background-color:light gainsboro;
+}
+
+
+.navLinksContainer {
+    display: flex;
+    justify-content: space-between; /* Spacing elements evenly */
+    margin: 20px;
+}
+  
+  .navLink a {
+    flex: 1; /* Each anchor element takes equal space */
+    text-align: center; /* Center the text horizontally */
+    padding: 10px; /* Add padding for better spacing */
+    text-decoration: none; /* Remove underline from links */
+    color: #0a3488; /* Text color */
+    border: solid 1px;
+  }
